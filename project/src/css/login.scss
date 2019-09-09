@@ -1,0 +1,218 @@
+.box {
+	width: 100%;
+	height: auto;
+	.header {
+		width: 100%;
+		height: 115px;
+		.wd {
+			width: 85%;
+			height: 10px;
+			margin: auto;
+			padding-top: 35px;
+		}
+	}
+	.logo-banner {
+		width: 100%;
+		height: 600px;
+		background: url('../img/bannner.jpg') no-repeat center center;
+		.content {
+			width: 85%;
+			height: 600px;
+			margin: auto;
+			.logo-form {
+				width: 420px;
+				height: auto;
+				background: #fff;
+				margin: 75px 0 0 19px;
+				.logo-tit {
+					width: 380px;
+					height: auto;
+					margin: auto;
+					border-bottom: 1px solid #aaa;
+					p {
+						width: 380px;
+						height: 32px;
+						line-height: 32px;
+						color: #2db4ea;
+					}
+				}
+				.logList {
+					width: 380px;
+					height: auto;
+					margin: auto;
+					li {
+						width: 380px;
+					}
+					.username {
+						height: 40px;
+						border: 1px solid #ddd;
+						margin-top: 20px;
+						box-shadow: 0 0 3px #3ab5e6;
+						.usn {
+							float: left;
+							width: 57px;
+							height: 40px;
+							background: #e4e4e4;
+							color: #212121;
+							text-align: center;
+							line-height: 40px;
+							i {
+								display: inline-block;
+								font-size: 20px;
+								width: 20px;
+								height: 20px;
+							}
+						}
+						#users {
+							float: left;
+							width: 321px;
+							height: 38px;
+							outline: none;
+						}
+					}
+					.pwd {
+						height: 40px;
+						border: 1px solid #ddd;
+						margin-top: 20px;
+						.psw {
+							float: left;
+							width: 57px;
+							height: 40px;
+							background: #e4e4e4;
+							color: #212121;
+							text-align: center;
+							line-height: 40px;
+							i {
+								display: inline-block;
+								font-size: 20px;
+								width: 20px;
+								height: 20px;
+							}
+						}
+						#pass {
+							float: left;
+							width: 321px;
+							height: 38px;
+							outline: none;
+						}
+					}
+					.verity {
+						height: 40px;
+						margin-top: 20px;
+						position: relative;
+						.vcode {
+							width: 240px;
+							height: 40px;
+							label {
+								width: 56px;
+								height: 40px;
+								font-size: 14px;
+								line-height: 40px;
+							}
+							#vtxt {
+								width: 164px;
+								height: 40px;
+								border: 1px solid #ddd;
+							}
+						}
+						.rcode {
+							width: 119px;
+							height: 40px;
+							line-height: 40px;
+							#change {
+								color: #2db4ea;
+								cursor: pointer;
+							}
+							.inf {
+								position: absolute;
+								left: 50px;
+								bottom: -40px;
+								display: block;
+							}
+							.nums {
+								display: inline-block;
+								width: 40px;
+								height: 40px;
+								background: url('../img/random.jpg') no-repeat center center;
+							}
+						}
+					}
+					.callback {
+						height: 28px;
+						margin-top: 10px;
+						.toBack {
+							width: 56px;
+							height: 28px;
+							font-size: 14px;
+							color: #2db4ea;
+							cursor: pointer;
+						}
+					}
+					.login {
+						height: 64px;
+						margin: auto;
+						.logo {
+							height: 40px;
+							background: #2db4ea;
+							color: #fff;
+							text-align: center;
+							line-height: 40px;
+							cursor: pointer;
+						}
+						.tips {
+							width: 380px;
+							height: 24px;
+							font-size: 12px;
+							color: #e4393c;
+						}
+					}
+					.other {
+						height: 28px;
+						.qq {
+							width: 125.8px;
+							height: 28px;
+							cursor: pointer;
+							img {
+								width: 20px;
+								height: 20px;
+							}
+							span {
+								font-size: 14px;
+							}
+						}
+						.zfb {
+							width: 95px;
+							height: 28px;
+							cursor: pointer;
+							img {
+								width: 20px;
+								height: 20px;
+							}
+							span {
+								font-size: 14px;
+							}
+						}
+					}
+					.toReg {
+						height: 38px;
+						margin-top: 20px;
+						padding-bottom: 20px;
+						.reg {
+							width: 380px;
+							height: 38px;
+							border: 1px solid #ddd;
+							a {
+								display: inline-block;
+								width: 380px;
+								height: 38px;
+								text-align: center;
+								line-height: 38px;
+								color: #2db4ea;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,151 @@
+<!--
+ * @Description: In User Settings Edit
+ * @Author: your name
+ * @Date: 2019-09-04 11:07:50
+ * @LastEditTime: 2019-09-07 12:26:15
+ * @LastEditors: Please set LastEditors
+ -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>购物车</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/cart.css" />
+	</head>
+	<body>
+		<div class="box">
+			<div class="top_nav">
+				<div class="content clearfix">
+					<p class="fl lef clearfix">
+						<a class="login fl" href="login.html">登录</a>
+						<span class="shu fl">|</span>
+						<a class="reg fl" href="reg.html">免费注册</a>
+						<a class="down fr" href="###">下载博库APP</a>
+						<span class="icon iconfont icon-shoujichongzhi fr"></span>
+					</p>
+					<p class="fr rig clearfix">
+						<a href="###">联系客服</a>
+						<span>|</span>
+						<a href="###">店铺管理</a>
+						<span>|</span>
+						<a href="###">收藏夹</a>
+						<span>|</span>
+					</p>
+					<ul class="Flist fr">
+						<li class="Fli">
+							我的博库^
+							<ul class="Slist">
+								<li>我的订单</li>
+								<li>我的优惠券</li>
+								<li>我的收藏</li>
+								<li>我的收入</li>
+								<li>官方消息</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="header">
+				<div class="wd">
+					<img src="https://bnmpstyle.bookuu.com/www/images/icon/logo.png" alt="" />
+				</div>
+			</div>
+			<div class="cart_head">
+				<div class="content">
+					<div class="cartH">
+						<p class="cartHead clearfix">
+							<span class="mycart fl">我的购物车</span>
+							<span class="msg fr"
+								>温馨提示:1.购物车中的商品无法保留库存，请您尽快完成购买。2.商品的价格和库存将以订单提交时为准哦。</span
+							>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="cart_main">
+				<div class="content">
+					<div class="cartcon">
+						<div class="header clearfix">
+							<p class="fl" id="allchecked">
+								<input type="checkbox" name="" id="a" value="" />
+								<label for="a">全选</label>
+							</p>
+							<p class="binf fl">
+								商品信息
+							</p>
+							<p class="UnitPrice fl">
+								单价(￥元)
+							</p>
+							<p class="bnum fl">
+								数量
+							</p>
+							<p class="nmoney fl">
+								金额(元)
+							</p>
+							<p class="operation fl">
+								操作
+							</p>
+						</div>
+						<ul id="cart">
+							<!-- <li class="goods clearfix">
+								<p class="good_check fl">
+									<input type="checkbox" name="" id="" />
+								</p>
+								<p class="pic fl">
+									<img src="https://bnmppic.bookuu.com/goods/13/52/03/A106522-1.jpg" alt="" />
+								</p>
+								<p class="good_name fl">
+									长长的路 我们慢慢走 单本
+								</p>
+								<p class="good_price fl">
+									<span>￥&nbsp;24.80</span>
+								</p>
+								<div class="num fl clearfix">
+									<div class="cutnum fl">-</div>
+									<input class="nownum fl" data-num="10" type="text" value="1" />
+									<div class="addnum fl">+</div>
+								</div>
+								<p class="good_total fl">
+									<span>
+										￥&nbsp;24.80
+									</span>
+								</p>
+								<p class="good_del fl">
+									<a href="###">删除</a>
+								</p>
+							</li>
+						-->
+						</ul>
+						<div id="del" class="clearfix">
+							<p id="allnum" class="fl">已选0件商品</p>
+							<p id="delall" class="fl">
+								<a href="javascript:;">删除所选商品</a>
+							</p>
+							<div class="total fl">
+								<p id="totalprice">应付金额(不含运费):<span class="payMon">￥0.00</span></p>
+							</div>
+							<div class="settlement fr">
+								去结算
+							</div>
+							<div class="logMsg">
+								<p class="msg">您还未登陆，是否登陆？？</p>
+								<div class="yes">确定</div>
+								<div class="no">我再逛逛</div>
+							</div>
+							<div class="paySuccess">
+								<p>恭喜你支付成功</p>
+								<p class="ok">确定</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="../js/hutton_common.js"></script>
+	<script src="../js/jquery-1.10.1.min.js"></script>
+	<script src="../js/cart.js"></script>
+</html>

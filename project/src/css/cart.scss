@@ -1,0 +1,406 @@
+.box {
+	width: 100%;
+	height: auto;
+	.content {
+		width: 85%;
+		margin: auto;
+	}
+	.top_nav {
+		width: 100%;
+		height: 30px;
+		background: #eee;
+		.content {
+			.lef {
+				width: 204px;
+				height: 30px;
+				font-size: 12px;
+				.login {
+					width: 24px;
+					height: 30px;
+					display: inline-block;
+					line-height: 30px;
+					color: #666;
+				}
+				span {
+					display: inline-block;
+					width: 13px;
+					height: 30px;
+					line-height: 30px;
+					text-align: center;
+				}
+				.reg {
+					width: 48px;
+					height: 30px;
+					display: inline-block;
+					line-height: 30px;
+					color: #666;
+				}
+				a:hover {
+					color: lightskyblue;
+				}
+				.icon {
+					display: inline-block;
+					width: 16px;
+					height: 16px;
+					text-align: center;
+					color: lightskyblue;
+				}
+				.down {
+					width: 89px;
+					height: 30px;
+					line-height: 30px;
+					color: #666;
+					display: inline-block;
+				}
+			}
+			.welcome {
+				font-size: 12px;
+				color: #999;
+				height: 30px;
+				line-height: 30px;
+			}
+			.rig {
+				span {
+					font-size: 12px;
+					float: right;
+					line-height: 30px;
+					padding: 0 5px 0 5px;
+				}
+				a {
+					line-height: 30px;
+					float: right;
+					color: #666;
+					font-size: 12px;
+				}
+				a:hover {
+					color: #3ab5e6;
+				}
+			}
+			.Flist {
+				width: 65px;
+				height: 30px;
+				overflow: hidden;
+				.Fli {
+					width: 100%;
+					height: 100%;
+					font-size: 12px;
+					color: #666;
+					line-height: 30px;
+					text-align: center;
+					cursor: pointer;
+					.Slist {
+						width: 65px;
+						height: auto;
+						li {
+							width: 100%;
+							height: 30px;
+							font-size: 12px;
+							color: #666;
+							text-align: center;
+						}
+						li:hover {
+							color: #3ab5e6;
+						}
+					}
+				}
+			}
+			.Flist:hover {
+				overflow: visible;
+				background: #eee;
+			}
+		}
+	}
+	.header {
+		width: 85%;
+		height: 115px;
+		border-bottom: 1px solid #ddd;
+		margin: auto;
+		.wd {
+			width: 85%;
+			height: 10px;
+			margin: auto;
+			padding-top: 35px;
+		}
+	}
+	.cart_head {
+		width: 100%;
+		height: auto;
+		.content {
+			.cartH {
+				width: 100%;
+				p {
+					width: 100%;
+					padding-top: 10px;
+					.mycart {
+						color: #333;
+						font-size: 18px;
+					}
+					.msg {
+						font-size: 14px;
+						color: #999;
+					}
+				}
+			}
+		}
+	}
+	.cart_main {
+		width: 100%;
+		height: auto;
+		.content {
+			.cartcon {
+				width: 100%;
+				height: auto;
+				.header {
+					width: 100%;
+					height: 51px;
+					background: #eee;
+					#allchecked {
+						width: 80px;
+						height: 51px;
+						line-height: 51px;
+						input {
+							margin: 0 8px 0 5px;
+						}
+					}
+					p {
+						line-height: 51px;
+					}
+					.binf {
+						width: 450px;
+						height: 51px;
+					}
+					.UnitPrice {
+						width: 160px;
+						height: 51px;
+						text-align: center;
+					}
+					.bnum {
+						width: 120px;
+						height: 51px;
+						text-align: center;
+					}
+					.nmoney {
+						width: 200px;
+						height: 51px;
+						text-align: center;
+					}
+					.operation {
+						width: 188px;
+						height: 51px;
+					}
+				}
+				#cart {
+					width: 100%;
+					height: auto;
+					.goods {
+						width: 100%;
+						border: 1px solid #ddd;
+						.good_check {
+							width: 80px;
+							height: 80px;
+							text-align: center;
+						}
+						.pic {
+							width: 100px;
+							height: 100px;
+							img {
+								width: 100px;
+								height: 100px;
+							}
+						}
+						.good_name {
+							width: 300px;
+							height: 60px;
+							text-align: center;
+							font-size: 14px;
+							color: #212121;
+							margin: 8px 0 0;
+						}
+						.good_price {
+							width: 160px;
+							height: 30px;
+							color: #212121;
+							text-align: center;
+							margin-top: 30px;
+							margin-left: 50px;
+						}
+						.num {
+							width: 130px;
+							height: 65px;
+							margin-top: 30px;
+							.cutnum {
+								cursor: pointer;
+								display: inline-block;
+								width: 29px;
+								height: 28px;
+								text-align: center;
+								line-height: 28px;
+								border: 1px solid #ddd;
+								border-right: 1px solid transparent;
+							}
+							.nownum {
+								width: 56px;
+								height: 28px;
+								text-align: center;
+								line-height: 28px;
+								border: 1px solid #ddd;
+							}
+							.addnum {
+								cursor: pointer;
+								border: 1px solid #ddd;
+								border-left: 1px solid transparent;
+								display: inline-block;
+								width: 29px;
+								height: 28px;
+								text-align: center;
+								line-height: 28px;
+							}
+						}
+						.good_total {
+							width: 100px;
+							height: 24px;
+							margin: 30px 0 0 50px;
+							color: #e4393c;
+							span {
+								text-align: center;
+							}
+						}
+						.good_del {
+							margin: 30px 0 0 40px;
+							width: 60px;
+							height: 80px;
+						}
+					}
+				}
+				#del {
+					width: 100%;
+					height: 81px;
+					background: #eee;
+					position: relative;
+					#allchecked {
+						width: 80px;
+						height: 81px;
+						line-height: 81px;
+						margin-left: 10px;
+						padding-left: 20px;
+					}
+					#allnum {
+						width: 100px;
+						height: 81px;
+						color: #666;
+						text-align: center;
+						line-height: 81px;
+					}
+					#delall {
+						width: 100px;
+						height: 81px;
+						line-height: 81px;
+						padding: 0 30px;
+						a {
+							color: #212121;
+						}
+					}
+					.total {
+						width: 713px;
+						height: 81px;
+						text-align: right;
+						margin: 14px 0 0 0px;
+						#totalprice {
+							font-size: 22px;
+							color: #212121;
+							.payMon {
+								font-size: 22px;
+								color: #e4393c;
+							}
+						}
+						.allpay {
+							font-size: 12px;
+							color: #666;
+						}
+					}
+					.settlement {
+						width: 100px;
+						height: 81px;
+						background: #e4393c;
+						color: #fff;
+						font-size: 24px;
+						text-align: center;
+						line-height: 81px;
+						cursor: pointer;
+					}
+					.logMsg {
+						width: 400px;
+						height: 150px;
+						border: #3ab5e6;
+						box-shadow: 1px 1px 10px #3ab5e6;
+						z-index: 999;
+						background: #fff;
+						position: absolute;
+						top: -300px;
+						left: 450px;
+						display: none;
+						.msg {
+							width: 100%;
+							height: 30px;
+							text-align: center;
+							font-size: 18px;
+							color: #666;
+							margin-top: 20px;
+						}
+						.yes {
+							width: 60px;
+							height: 35px;
+							background: #3ab5e6;
+							font-size: 14px;
+							color: #eee;
+							display: inline-block;
+							text-align: center;
+							line-height: 35px;
+							margin: 50px 0 0 130px;
+							cursor: pointer;
+						}
+						.no {
+							width: 60px;
+							height: 35px;
+							background: #3ab5e6;
+							font-size: 14px;
+							color: #eee;
+							display: inline-block;
+							text-align: center;
+							line-height: 35px;
+							margin-left: 20px;
+							cursor: pointer;
+						}
+					}
+					.paySuccess {
+						width: 200px;
+						height: 120px;
+						border: 1px solid #3ab5e6;
+						box-shadow: 1px 1px 9px #3ab5e6;
+						text-align: center;
+						line-height: 80px;
+						font-size: 20px;
+						color: #58bc58;
+						position: absolute;
+						top: -300px;
+						left: 450px;
+						z-index: 999;
+						background: #fff;
+						display: none;
+						.ok {
+							width: 50px;
+							height: 30px;
+							background: #3ab5e6;
+							text-align: center;
+							line-height: 30px;
+							color: #fee;
+							font-size: 14px;
+							margin-left: 80px;
+							cursor: pointer;
+						}
+					}
+				}
+			}
+		}
+	}
+}

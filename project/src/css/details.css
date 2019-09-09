@@ -1,0 +1,1016 @@
+.box {
+  width: 100%;
+  height: auto;
+}
+
+.box .content {
+  width: 85%;
+  height: auto;
+  margin: auto;
+}
+
+.box .top_nav {
+  width: 100%;
+  height: 30px;
+  background: #eee;
+}
+
+.box .top_nav .content .lef {
+  width: 204px;
+  height: 30px;
+  font-size: 12px;
+}
+
+.box .top_nav .content .lef .login {
+  width: 24px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  color: #666;
+}
+
+.box .top_nav .content .lef span {
+  display: inline-block;
+  width: 13px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.box .top_nav .content .lef .reg {
+  width: 48px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  color: #666;
+}
+
+.box .top_nav .content .lef a:hover {
+  color: lightskyblue;
+}
+
+.box .top_nav .content .lef .icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  color: lightskyblue;
+}
+
+.box .top_nav .content .lef .down {
+  width: 89px;
+  height: 30px;
+  line-height: 30px;
+  color: #666;
+  display: inline-block;
+}
+
+.box .top_nav .content .rig span {
+  font-size: 12px;
+  float: right;
+  line-height: 30px;
+  padding: 0 5px 0 5px;
+}
+
+.box .top_nav .content .rig a {
+  line-height: 30px;
+  float: right;
+  color: #666;
+  font-size: 12px;
+}
+
+.box .top_nav .content .rig a:hover {
+  color: #3ab5e6;
+}
+
+.box .top_nav .content .Flist {
+  width: 65px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.box .top_nav .content .Flist .Fli {
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  color: #666;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.box .top_nav .content .Flist .Fli .Slist {
+  width: 65px;
+  height: auto;
+}
+
+.box .top_nav .content .Flist .Fli .Slist li {
+  width: 100%;
+  height: 30px;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+
+.box .top_nav .content .Flist .Fli .Slist li:hover {
+  color: #3ab5e6;
+}
+
+.box .top_nav .content .Flist:hover {
+  overflow: visible;
+  background: #eee;
+}
+
+.box .log_search {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #3ab5e6;
+}
+
+.box .log_search .wd {
+  width: 100%;
+  height: auto;
+}
+
+.box .log_search .wd .search-container {
+  width: 100%;
+  height: 120px;
+  border: 1px solid transparent;
+}
+
+.box .log_search .wd .search-container .logo-container {
+  width: 100%;
+  height: 95px;
+  margin-top: 25px;
+}
+
+.box .log_search .wd .search-container .logo-container .pic {
+  display: block;
+  float: left;
+  width: 325px;
+  height: 95px;
+}
+
+.box .log_search .wd .search-container .logo-container .pic img {
+  width: 220px;
+  height: 38px;
+}
+
+.box .log_search .wd .search-container .logo-container .inp {
+  width: 554px;
+  height: 64px;
+}
+
+.box .log_search .wd .search-container .logo-container .inp .allsea {
+  width: 554px;
+  height: 39px;
+  border: 2px solid #3ab5e6;
+}
+
+.box .log_search .wd .search-container .logo-container .inp .allsea .search-box {
+  width: 480px;
+  height: 39px;
+}
+
+.box .log_search .wd .search-container .logo-container .inp .allsea .search-box #gudingsearch {
+  display: block;
+  width: 480px;
+  height: 39px;
+}
+
+.box .log_search .wd .search-container .logo-container .inp .allsea .icon {
+  width: 74px;
+  height: 39px;
+  background: #3ab5e6;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  line-height: 39px;
+  cursor: pointer;
+}
+
+.box .log_search .wd .search-container .logo-container .inp .tip {
+  width: 554px;
+  height: 25px;
+}
+
+.box .log_search .wd .search-container .logo-container .inp .tip a,
+.box .log_search .wd .search-container .logo-container .inp .tip span {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+
+.box .log_search .wd .search-container .logo-container .cart {
+  width: 107px;
+  height: 35px;
+}
+
+.box .log_search .wd .search-container .logo-container .cart a {
+  display: block;
+  width: 108px;
+  height: 35px;
+  border: 1px solid #ccc;
+}
+
+.box .log_search .wd .search-container .logo-container .cart a .iconCart {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  color: #bbb;
+  line-height: 35px;
+  margin-left: 10px;
+}
+
+.box .log_search .wd .search-container .logo-container .cart a .spcart {
+  margin-left: 5px;
+  line-height: 35px;
+  width: 16px;
+  height: 16px;
+  color: #000;
+}
+
+.box .log_search .wd .nav_box {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+
+.box .log_search .wd .nav_box .public {
+  width: 200px;
+  height: 40px;
+}
+
+.box .log_search .wd .nav_box .public .db {
+  display: block;
+  width: 200px;
+  height: 40px;
+  background: #3ab5e6;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
+
+.box .log_search .wd .nav_box .public .menu {
+  width: 200px;
+  height: 400px;
+  background: rgba(29, 28, 28, 0.5);
+  position: absolute;
+  top: 40px;
+  left: 0;
+  display: none;
+}
+
+.box .log_search .wd .nav_box .public .menu .list {
+  width: 100%;
+  height: auto;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li i {
+  width: 50px;
+  height: 20px;
+  display: inline-block;
+  background: url("../img/category.png");
+}
+
+.box .log_search .wd .nav_box .public .menu .list li span {
+  color: #fff;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li .i1 {
+  background-position: -13px -11px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li .i2 {
+  background-position: -13px -61px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li .i3 {
+  background-position: -13px -111px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li .i4 {
+  background-position: -13px -161px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li .i5 {
+  background-position: -13px -211px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li .i6 {
+  background-position: -13px -261px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li .i7 {
+  background-position: -13px -311px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li .i8 {
+  background-position: -13px -361px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li .i9 {
+  background-position: -13px -411px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li .righ {
+  margin-left: 45px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li:hover .i1 {
+  background: url("../img/category.png") no-repeat -63px -11px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li:hover .i2 {
+  background: url("../img/category.png") no-repeat -63px -61px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li:hover .i3 {
+  background: url("../img/category.png") no-repeat -63px -111px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li:hover .i4 {
+  background: url("../img/category.png") no-repeat -63px -161px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li:hover .i5 {
+  background: url("../img/category.png") no-repeat -63px -211px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li:hover .i6 {
+  background: url("../img/category.png") no-repeat -63px -261px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li:hover .i7 {
+  background: url("../img/category.png") no-repeat -63px -311px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li:hover .i8 {
+  background: url("../img/category.png") no-repeat -63px -361px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li:hover .i9 {
+  background: url("../img/category.png") no-repeat -63px -411px;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li:hover span {
+  color: #000;
+}
+
+.box .log_search .wd .nav_box .public .menu .list li:hover {
+  background: #fff;
+}
+
+.box .log_search .wd .nav_box .public:hover .menu {
+  display: block;
+  z-index: 1;
+}
+
+.box .log_search .wd .nav_box .nav {
+  width: 610px;
+  height: 40px;
+}
+
+.box .log_search .wd .nav_box .nav a {
+  width: 62px;
+  height: 40px;
+  color: #000;
+  margin: 0 10px 0 10px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.box .log_search .wd .nav_box .nav a:hover {
+  color: #3ab5e6;
+}
+
+.box .log_search .wd .nav_box .nav a:nth-child(1) {
+  color: #3ab5e6;
+  margin-left: 30px;
+}
+
+.box .position {
+  width: 100%;
+  height: auto;
+}
+
+.box .position .content .posi {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+
+.box .position .content .posi p {
+  cursor: pointer;
+}
+
+.box .goodDetail {
+  width: 100%;
+  height: auto;
+}
+
+.box .goodDetail .content .goodsInfs {
+  width: 100%;
+  height: 571px;
+}
+
+.box .goodDetail .content .goodsInfs .bigPic {
+  width: 428px;
+  height: auto;
+  cursor: pointer;
+}
+
+.box .goodDetail .content .goodsInfs .bigPic .gpic {
+  width: 428px;
+  height: 428px;
+  border: 1px solid #ccc;
+}
+
+.box .goodDetail .content .goodsInfs .bigPic .gpic img {
+  width: 428px;
+  height: 428px;
+}
+
+.box .goodDetail .content .goodsInfs .bigPic .piclist {
+  width: 428px;
+  height: 80px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.box .goodDetail .content .goodsInfs .bigPic .piclist li {
+  width: 80px;
+  height: 80px;
+  float: left;
+  text-align: center;
+  line-height: 80px;
+}
+
+.box .goodDetail .content .goodsInfs .bigPic .piclist li img {
+  width: 76px;
+  height: 76px;
+}
+
+.box .goodDetail .content .goodsInfs .bigPic .piclist li:nth-child(1) {
+  border: 2px solid #3ab5e6;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos {
+  width: 540px;
+  height: 551px;
+  position: relative;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .booksname {
+  width: 520px;
+  height: 40px;
+  font-size: 18px;
+  color: #333;
+  font-family: 'Microsoft Yahei';
+  padding-left: 20px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .namelist {
+  width: 520px;
+  color: #999;
+  padding-left: 20px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .bookInfos {
+  width: 520px;
+  height: 30px;
+  margin: 45px 0 0 0;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .bookInfos span {
+  color: #999;
+  font-size: 10px;
+  padding-left: 20px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .bookInfos i {
+  font-size: 10px;
+  color: #3ab5e6;
+  cursor: pointer;
+  margin: 0 50px 0 0;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook {
+  width: 520px;
+  height: auto;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .buyHead {
+  width: 100%;
+  height: 40px;
+  margin-left: 20px;
+  background: url("https://bnmpstyle.bookuu.com/www/images/bg/flashsale.png");
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .buyHead span {
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  font-size: 12px;
+  color: #fff;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .buyHead .time {
+  font-size: 18px;
+  color: yellowgreen;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .buyInf {
+  width: 520px;
+  height: 100px;
+  background: #ddd;
+  margin-left: 20px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .buyInf .p1 {
+  width: 100%;
+  height: 30px;
+  padding-top: 10px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .buyInf .p1 .priOld {
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  padding-left: 15px;
+  color: #999;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .buyInf .p1 .oldNum {
+  color: #222;
+  text-decoration: line-through;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .buyInf .p2 {
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .buyInf .p2 .sell {
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  color: #999;
+  padding-left: 15px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .buyInf .p2 .newNum {
+  color: #e4393c;
+  font-size: 28px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .numInfo {
+  width: 520px;
+  height: 122px;
+  margin: 10px 0 0 20px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .numInfo .city {
+  width: 520px;
+  height: 30px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .numInfo .city p {
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  color: #999;
+  float: left;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .numInfo .city .cityname {
+  width: 162px;
+  height: 30px;
+  border: 1px solid #ddd;
+  line-height: 30px;
+  float: left;
+  cursor: pointer;
+  color: #333;
+  font-size: 14px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .numInfo .city .freight {
+  font-size: 12px;
+  color: #999;
+  padding-left: 8px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .numInfo .sales {
+  width: 540px;
+  height: 30px;
+  margin-top: 8px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .numInfo .sales .sp1 {
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  color: #999;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .numInfo .sales .sp2 {
+  display: inline-block;
+  width: 420px;
+  height: 30px;
+  color: #333;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .numInfo .gnums {
+  width: 540px;
+  height: 30px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .numInfo .gnums .n {
+  display: inline-block;
+  color: #999;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .numInfo .gnums .add,
+.box .goodDetail .content .goodsInfs .ginfos .buybook .numInfo .gnums .reduce {
+  width: 29px;
+  height: 28px;
+  border: 1px solid #999;
+  text-align: center;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .numInfo .gnums .txtnum {
+  width: 56px;
+  height: 28px;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  text-align: center;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .numInfo .gnums .kucun {
+  display: inline-block;
+  color: #999;
+  height: 30px;
+  padding-left: 10px;
+  line-height: 30px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .btn {
+  width: 540px;
+  height: 50px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .btn .buyNow {
+  width: 182px;
+  height: 49px;
+  background: #2ab4e8;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 0 0 20px;
+  text-align: center;
+  line-height: 49px;
+  cursor: pointer;
+  float: left;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .btn .tocart {
+  width: 182px;
+  height: 49px;
+  float: left;
+  background: #d5f0fb;
+  margin: 0 0 0 20px;
+  color: #2db4ea;
+  cursor: pointer;
+  border: 1px solid #2ab4e6;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .btn .tocart i {
+  display: inline-block;
+  width: 30px;
+  height: 49px;
+  line-height: 49px;
+  font-size: 18px;
+  color: #2db4ea;
+  padding-left: 32px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .btn .tocart span {
+  width: 100px;
+  height: 49px;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 49px;
+  margin-left: -10px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .btn .collection {
+  width: 46px;
+  height: 48px;
+  border: 1px solid #aaa;
+  margin-left: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .btn .collection i {
+  font-size: 16px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .btn .collection p {
+  color: #999;
+  font-size: 14px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .service {
+  width: 540px;
+  height: 60px;
+  margin-top: 5px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .service .sev {
+  font-size: 14px;
+  color: #999;
+  width: 70px;
+  height: 60px;
+  margin-left: 20px;
+  line-height: 60px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .service .con-sev {
+  width: 400px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .service .con-sev .icon {
+  font-size: 14px;
+  color: #e4393c;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .service .con-sev .icons {
+  font-size: 14px;
+  color: #e4393c;
+  padding-left: 30px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .buybook .service .con-sev span {
+  font-size: 14px;
+  color: #666;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .pageBox {
+  width: 362px;
+  height: 279px;
+  border: 1px solid #aaa;
+  position: absolute;
+  top: 318px;
+  left: 90px;
+  background: #fff;
+  z-index: 100;
+  display: none;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .pageBox h1 {
+  width: 260px;
+  height: 31px;
+  line-height: 31px;
+  font-size: 14px;
+  border-bottom: 1px solid #aaa;
+  color: #333;
+  margin: 22px 0 0 22px;
+  cursor: pointer;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .pageBox p {
+  font-size: 14px;
+  color: #3ab5e6;
+  margin: 16px 0 0 20px;
+  cursor: pointer;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .pageBox .province {
+  margin: 10px 0 0 20px;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .pageBox .province .cityList {
+  width: 100%;
+}
+
+.box .goodDetail .content .goodsInfs .ginfos .pageBox .province .cityList li {
+  width: 80px;
+  height: 22px;
+  float: left;
+  text-align: center;
+  line-height: 22px;
+  color: #666;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.box .goodDetail .content .goodsInfs .backIndex {
+  width: 220px;
+  height: 400px;
+  margin-left: 20px;
+}
+
+.box .goodDetail .content .goodsInfs .backIndex .toIndex {
+  width: 211px;
+  height: 131px;
+  border: 1px solid #888;
+  padding: 16px 0 0 9px;
+  margin-bottom: 20px;
+}
+
+.box .goodDetail .content .goodsInfs .backIndex .toIndex .bktit {
+  width: 202px;
+  height: 70px;
+}
+
+.box .goodDetail .content .goodsInfs .backIndex .toIndex .bktit img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.box .goodDetail .content .goodsInfs .backIndex .toIndex .tobtn {
+  width: 202px;
+  height: 30px;
+}
+
+.box .goodDetail .content .goodsInfs .backIndex .toIndex .tobtn p {
+  width: 88px;
+  height: 29px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 29px;
+  border-radius: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.box .goodDetail .content .goodsInfs .backIndex .toIndex .tobtn .inIndex {
+  color: #212121;
+  border: 1px solid #aaa;
+}
+
+.box .goodDetail .content .goodsInfs .backIndex .toIndex .tobtn .openShop {
+  color: #fff;
+  background: #2ab4e8;
+  border: 1px solid #2ab4e6;
+  margin-left: 20px;
+}
+
+.box .ginformation {
+  width: 100%;
+  height: auto;
+}
+
+.box .ginformation .content {
+  height: auto;
+}
+
+.box .ginformation .content .ginf {
+  width: 100%;
+  height: auto;
+}
+
+.box .ginformation .content .ginf .con_left {
+  width: 220px;
+  height: auto;
+}
+
+.box .ginformation .content .ginf .con_left h1 {
+  width: 220px;
+  height: 50px;
+  background: #f3f3f3;
+  color: #212121;
+  font-size: 18px;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #ddd;
+  border-bottom: none;
+}
+
+.box .ginformation .content .ginf .con_left .newgoodslist {
+  width: 220px;
+  height: auto;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.box .ginformation .content .ginf .con_left .newgoodslist li {
+  width: 220px;
+  height: 300px;
+  border-left: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.box .ginformation .content .ginf .con_left .newgoodslist li img {
+  cursor: pointer;
+  padding-top: 25px;
+  width: 198px;
+  height: 198px;
+}
+
+.box .ginformation .content .ginf .con_left .newgoodslist li .jieshao {
+  padding: 12px 0 0 0;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+
+.box .ginformation .content .ginf .con_left .newgoodslist li .jiage {
+  padding: 10px 0 0 0;
+}
+
+.box .ginformation .content .ginf .con_left .newgoodslist li .jiage .newP {
+  display: inline-block;
+  font-size: 14px;
+  color: #e4393c;
+}
+
+.box .ginformation .content .ginf .con_left .newgoodslist li .jiage .oldP {
+  display: inline-block;
+  font-size: 12px;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.box .ginformation .content .ginf .con_left .newgoodslist li:hover img {
+  transform: scale(1.1, 1.1);
+  transform-origin: center;
+}
+
+.box .ginformation .content .ginf .con_center {
+  width: 838px;
+  height: auto;
+  margin: 0 10px 0 10px;
+}
+
+.box .ginformation .content .ginf .con_center .heads {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #ddd;
+}
+
+.box .ginformation .content .ginf .con_center .heads .tou {
+  width: 100%;
+  height: 50px;
+  background: #f3f3f3;
+}
+
+.box .ginformation .content .ginf .con_center .heads .tou span {
+  display: inline-block;
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.box .ginformation .content .ginf .con_center .heads .tou .gddetail {
+  color: #3ab5e6;
+  background: #fff;
+}
+
+.box .ginformation .content .ginf .con_center .heads .infList {
+  width: 100%;
+  height: auto;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.box .ginformation .content .ginf .con_center .heads .infList li {
+  float: left;
+  font-size: 14px;
+  width: 252.66px;
+  height: 30px;
+  line-height: 30px;
+  color: #333;
+}
+
+.box .ginformation .content .ginf .con_center .pices {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.box .ginformation .content .ginf .con_center .pices img {
+  width: 650px;
+  padding: 10px 0 0 10px;
+}
